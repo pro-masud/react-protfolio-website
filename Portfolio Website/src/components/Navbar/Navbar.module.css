@@ -1,3 +1,36 @@
-.navClas{
+@import "../../vars.css";
+.navBar{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 61px;
+    margin: 0 10%
+}
+.logo a{
+    font-family: "Outfit";
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 37.8px;
+    text-align: left;
     color: var(--color-text);
+    text-decoration: none;
+}
+.menu{
+    display: flex;
+}
+.menuItems{
+    display: flex;
+    align-items: center;
+    gap: 47px;
+    list-style: none;
+}
+.menuItems li a{
+    font-family: Outfit;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 31.5px;
+    text-align: left;
+    text-decoration: none; 
+    color: var(--color-text)  
 }
