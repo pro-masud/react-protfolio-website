@@ -11,8 +11,8 @@ const Hero = () => {
         <a className={style.heroBtn} href="#contact">Contact Us</a>
       </div>
       <img className={style.heroImage} src={getImageUrl('hero/heroImage.png')} alt="hero image here" />
-      <div className="hero-top-blur"></div>
-      <div className="hero-buttom-blur"></div>
+      <div className={style.heroTopBlur}></div>
+      <div className={style.heroButtomBlur}></div>
     </section>
   )
 }

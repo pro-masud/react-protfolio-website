@@ -99,3 +99,28 @@
     }
     
 }
+
+.heroTopBlur{
+    position: absolute;
+    top: -127px;
+    left: -10vh;
+    width: 70vh;
+    height: 50vh;
+    min-width: 370px;
+    min-height: 370px;
+    background-color: #19376DB2;
+    filter: blur(120px);
+    z-index: 0;
+}
+.heroButtomBlur{
+    position: absolute;
+    right: -127px;
+    bottom: -10vh;
+    width: 70vh;
+    height: 50vh;
+    min-width: 370px;
+    min-height: 370px;
+    background-color: #19376DB2;
+    filter: blur(120px);
+    z-index: 0;
+}
