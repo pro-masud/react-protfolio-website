@@ -11,7 +11,7 @@ const Navbar = () => {
       </div>
       <div className={style.menu}>
         <img onClick={ () => setMenuOpen(!menuOpen)} className={style.menuBar} src={ menuOpen ? getImageUrl('nav/close-menu.png') : getImageUrl('nav/nav.png')} />
-        <ul className={`${style.menuItems} ${menuOpen && style.menuOpen}`}>
+        <ul onClick={ () => setMenuOpen(false)} className={`${style.menuItems} ${menuOpen && style.menuOpen}`}>
           <li><a href="#About">About Us</a></li>
           <li><a href="#Portfolio">Portfolio</a></li>
           <li><a href="#Project">Project</a></li>

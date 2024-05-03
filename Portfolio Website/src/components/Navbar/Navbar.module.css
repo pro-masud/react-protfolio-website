@@ -35,6 +35,9 @@
     text-decoration: none; 
     color: var(--color-text)  
 }
+.menuBar{
+    display: none;
+}
 
 @media screen and (max-width: 830px) {
     .navBar{
@@ -64,6 +67,12 @@
         background: linear-gradient(rgba(25, 55, 109, 0.2) 0%, #19376D 100%);
         box-shadow: 0px 4px 4px 0px #00000040;
         color: #FFFFFF;
+    }
+    .menuItems li a{
+        font-family: Outfit;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 31.5px;
     }
     .menu img{
         width: 30px;
